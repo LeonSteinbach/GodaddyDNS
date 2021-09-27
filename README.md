@@ -22,7 +22,9 @@ A tool to update multiple dns records of your domain registered at godaddy.com.
 Use cronjobs to update your dns records automatically (e.g. every 10 minutes).
 
 Edit your jobs with crontab
+
 ```crontab -e```
 
 Add a new job
+
 ```*/10 * * * * /usr/bin/python3 /<path_to_file>/main.py /<path_to_config>/config.json > /<path_to_logfile>/cron.log```
