@@ -27,4 +27,4 @@ Edit your jobs with crontab
 
 Add a new job
 
-```*/10 * * * * /usr/bin/python3 /<path_to_file>/main.py /<path_to_config>/config.json > /<path_to_logfile>/cron.log```
+```*/10 * * * * /usr/bin/python3 <path_to_file> <path_to_config> > <path_to_logfile>```
